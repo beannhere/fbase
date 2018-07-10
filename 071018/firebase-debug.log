@@ -1,0 +1,165 @@
+[debug] [2018-07-10T01:21:55.658Z] ----------------------------------------------------------------------
+[debug] [2018-07-10T01:21:55.659Z] Command:       /root/.nvm/versions/node/v8.0.0/bin/node /usr/bin/firebase serve
+[debug] [2018-07-10T01:21:55.660Z] CLI Version:   3.19.1
+[debug] [2018-07-10T01:21:55.660Z] Platform:      linux
+[debug] [2018-07-10T01:21:55.660Z] Node Version:  v8.0.0
+[debug] [2018-07-10T01:21:55.660Z] Time:          Tue Jul 10 2018 09:21:55 GMT+0800 (+08)
+[debug] [2018-07-10T01:21:55.660Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-10T01:21:55.666Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-10T01:21:55.666Z] > authorizing via signed-in user
+[debug] [2018-07-10T01:21:55.668Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fbase-app  
+  
+ Tue Jul 10 2018 09:21:55 GMT+0800 (+08)
+[debug] [2018-07-10T01:21:56.864Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-10T01:21:56.866Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fbase-app/tokens  
+  
+ Tue Jul 10 2018 09:21:56 GMT+0800 (+08)
+[debug] [2018-07-10T01:21:57.715Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-10T01:21:57.717Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fbase-app  
+  
+ Tue Jul 10 2018 09:21:57 GMT+0800 (+08)
+[debug] [2018-07-10T01:21:59.171Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/usr/local/google/home/babyann/Documents/fbase-app'...
+[info] 
+[debug] [2018-07-10T01:21:59.176Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/739658926634/clients/_:getWebAppConfig  
+  
+ Tue Jul 10 2018 09:21:59 GMT+0800 (+08)
+[debug] [2018-07-10T01:21:59.971Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-07-10T03:08:04.158Z] Error: connect ETIMEDOUT 108.177.125.94:443
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1136:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-07-10T03:08:04.169Z] Error: connect ETIMEDOUT 108.177.125.94:443
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1136:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-07-10T03:08:04.171Z] Error: socket hang up
+    at createHangUpError (_http_client.js:343:15)
+    at TLSSocket.socketCloseListener (_http_client.js:375:23)
+    at emitOne (events.js:120:20)
+    at TLSSocket.emit (events.js:210:7)
+    at _handle.close (net.js:546:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:350:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-07-10T03:08:04.172Z] Error: socket hang up
+    at createHangUpError (_http_client.js:343:15)
+    at TLSSocket.socketCloseListener (_http_client.js:375:23)
+    at emitOne (events.js:120:20)
+    at TLSSocket.emit (events.js:210:7)
+    at _handle.close (net.js:546:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:350:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-07-10T03:08:22.875Z] ----------------------------------------------------------------------
+[debug] [2018-07-10T03:08:22.876Z] Command:       /root/.nvm/versions/node/v8.0.0/bin/node /usr/bin/firebase serve
+[debug] [2018-07-10T03:08:22.876Z] CLI Version:   3.19.1
+[debug] [2018-07-10T03:08:22.876Z] Platform:      linux
+[debug] [2018-07-10T03:08:22.876Z] Node Version:  v8.0.0
+[debug] [2018-07-10T03:08:22.876Z] Time:          Tue Jul 10 2018 11:08:22 GMT+0800 (+08)
+[debug] [2018-07-10T03:08:22.876Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-10T03:08:22.883Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-10T03:08:22.883Z] > authorizing via signed-in user
+[debug] [2018-07-10T03:08:22.884Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-10T03:08:22.884Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/xaCwgIFSFeoAtH8DEwxwnug5od8UkobYwxOFKC_BSUE',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jul 10 2018 11:08:22 GMT+0800 (+08)
+[debug] [2018-07-10T03:08:23.297Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-10T03:08:23.302Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fbase-app  
+  
+ Tue Jul 10 2018 11:08:23 GMT+0800 (+08)
+[debug] [2018-07-10T03:08:27.471Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-10T03:08:27.473Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fbase-app/tokens  
+  
+ Tue Jul 10 2018 11:08:27 GMT+0800 (+08)
+[debug] [2018-07-10T03:08:28.411Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-10T03:08:28.413Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fbase-app  
+  
+ Tue Jul 10 2018 11:08:28 GMT+0800 (+08)
+[debug] [2018-07-10T03:08:30.003Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/usr/local/google/home/babyann/Documents/fbase-app'...
+[info] 
+[debug] [2018-07-10T03:08:30.008Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/739658926634/clients/_:getWebAppConfig  
+  
+ Tue Jul 10 2018 11:08:30 GMT+0800 (+08)
+[debug] [2018-07-10T03:08:30.912Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-07-10T03:18:36.734Z] Error: connect ETIMEDOUT 172.217.24.99:443
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1136:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-07-10T03:18:36.737Z] Error: connect ETIMEDOUT 172.217.24.99:443
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1136:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-07-10T03:18:36.740Z] Error: socket hang up
+    at createHangUpError (_http_client.js:343:15)
+    at TLSSocket.socketCloseListener (_http_client.js:375:23)
+    at emitOne (events.js:120:20)
+    at TLSSocket.emit (events.js:210:7)
+    at _handle.close (net.js:546:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:350:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-07-10T03:18:36.741Z] Error: socket hang up
+    at createHangUpError (_http_client.js:343:15)
+    at TLSSocket.socketCloseListener (_http_client.js:375:23)
+    at emitOne (events.js:120:20)
+    at TLSSocket.emit (events.js:210:7)
+    at _handle.close (net.js:546:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:350:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-07-10T03:19:50.652Z] ----------------------------------------------------------------------
+[debug] [2018-07-10T03:19:50.654Z] Command:       /root/.nvm/versions/node/v8.0.0/bin/node /usr/bin/firebase serve
+[debug] [2018-07-10T03:19:50.654Z] CLI Version:   3.19.1
+[debug] [2018-07-10T03:19:50.654Z] Platform:      linux
+[debug] [2018-07-10T03:19:50.654Z] Node Version:  v8.0.0
+[debug] [2018-07-10T03:19:50.654Z] Time:          Tue Jul 10 2018 11:19:50 GMT+0800 (+08)
+[debug] [2018-07-10T03:19:50.654Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-10T03:19:50.660Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-10T03:19:50.660Z] > authorizing via signed-in user
+[debug] [2018-07-10T03:19:50.662Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fbase-app  
+  
+ Tue Jul 10 2018 11:19:50 GMT+0800 (+08)
+[debug] [2018-07-10T03:19:51.943Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-10T03:19:51.944Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fbase-app/tokens  
+  
+ Tue Jul 10 2018 11:19:51 GMT+0800 (+08)
+[debug] [2018-07-10T03:19:56.697Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-10T03:19:56.699Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fbase-app  
+  
+ Tue Jul 10 2018 11:19:56 GMT+0800 (+08)
+[debug] [2018-07-10T03:19:58.202Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/usr/local/google/home/babyann/Documents/fbase-app'...
+[info] 
+[debug] [2018-07-10T03:19:58.204Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/739658926634/clients/_:getWebAppConfig  
+  
+ Tue Jul 10 2018 11:19:58 GMT+0800 (+08)
+[debug] [2018-07-10T03:19:59.044Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+

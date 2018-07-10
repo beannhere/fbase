@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "firestore": "ghub-project",
+    "fstore": "fbase-app"
+  }
+}

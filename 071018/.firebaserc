@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "fbase": "fbase-app",
+    "firestore": "fbase-app",
+    "fstorage": "fbase-app"
+  }
+}

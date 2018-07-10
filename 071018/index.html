@@ -1,0 +1,49 @@
+<html>
+<head>
+  <meta charset=utf-8 />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FBASE</title>
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <script src="/__/firebase/5.0.0/firebase-app.js"></script>
+  <script src="/__/firebase/5.0.0/firebase-auth.js"></script>
+  <script src="/__/firebase/init.js"></script>  
+</head>
+<body>
+<div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
+    <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
+      <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--8-col-desktop">
+        <a href="/"><h3>Firebase Web Application</h3></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="mdl-layout__content mdl-color--grey-100">
+    <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
+      <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
+       
+        <div class="mdl-card__supporting-text mdl-color-text--grey-600">          
+	<ul>
+		<li><a href="auth.html">Authentication</a> 
+			<p>Sign-in/Register using your email address and password.</p>
+		</li>
+		<li><a href="db/db.html">Realtime DB</a>
+			<p>View/Create new record.</p>
+		</li>
+		<li><a href="fstore/index.html">Firestore</a></li>
+			<p>Load/View data from cloud firestore.</p>
+		<li><a href="storage/index.html">Storage</a></li>
+			<p>Upload/download file from storage.</p>
+		<!-- <li><a href="auth.html">Messaging</a></li> -->
+	</ul>          
+        </div>
+      </div>
+
+    </div>
+  </main>
+</div>
+</body>
+</html>
